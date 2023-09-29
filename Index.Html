@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Questions Assignment</title>
+</head>
+
+<body>
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Chapter 46, 48 (Events)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+    Q1.	Create a simple event that prints a message when the user clicks on an element. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 1<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <a href="#" onclick="alert('Hello World')">Click me</a> -->
+
+  <!-- Q2.	Create an event that hides an element when the user clicks on a different element -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 2<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <div id="box" style="height: 150px; width: 150px; background-color: salmon">
+        Box
+      </div> -->
+
+  <!-- 3.Create a link that changes color when the user hovers over it and then back to its original color when the user moves the mouse away. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 3<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <body>
+        <div id="box">Apple, Pear, Banana</div> -->
+
+  <!-- Q4.Create an event that scrolls to the top of the page when the user clicks on a link. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 4<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <!-- <style>
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px;
+            }
+            
+            #myBtn {
+              display: none;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: red;
+              color: white;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+            
+            #myBtn:hover {
+              background-color: #555;
+            }
+            </style>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+            <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
+            <div style="background-color:lightgrey;padding:30px 30px 2500px"> 
+              <strong>when the user starts to scroll the page</strong>.</div> -->
+
+  <!-- Q5.Create a link that plays a sound when the user clicks on it. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 5<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <!-- 
+  <h1>Play Sound On Click!</h1>
+  <div class="wrapper">
+    <button class="button" type="button">Click me!</button>
+   </div>
+<style>
+    body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: skyblue;
+}
+h1{
+  font-size: 4rem;
+  color: #5d5d5d;
+  text-align: center;
+
+}
+.button {
+  font-size:15px;
+  font-family:Arial;
+  width:250px;
+  height:100px;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:linear-gradient(#599bb3, #408c99);
+}
+
+.button:hover {
+  background: linear-gradient(#408c99, #599bb3);
+}
+</style> -->
+
+  <!-- Q6.Create a simple link that opens a new window when clicked. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 6<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <button  class = "button" onclick="openTab()">Educative</button>
+
+<style>
+    body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: skyblue;
+}
+.button {
+  font-size:15px;
+  font-family:Arial;
+  width:250px;
+  height:100px;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:linear-gradient(#599bb3, #408c99);
+}
+
+.button:hover {
+  background: linear-gradient(#408c99, #599bb3);
+}
+</style> -->
+
+  <!-- Q7.Create a simple button that alert a message when clicked. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 7<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <button class = "button" onclick="alert('Hello World')">click me</button>
+
+<style>
+    body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: skyblue;
+}
+.button {
+  font-size:15px;
+  font-family:Arial;
+  width:250px;
+  height:100px;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:linear-gradient(#599bb3, #408c99);
+}
+
+.button:hover {
+  background: linear-gradient(#408c99, #599bb3);
+}
+</style> -->
+
+  <!-- 8.	Create a button that changes color when the user hovers over it. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 8<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <button class = "button button1">Click me</button>
+<style>
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    .button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+</style> -->
+
+  <!-- Q9.Create a button that plays a sound when the user clicks on it.
+
+// // // // >>>>>>>>>>>>>>>>>>>>Answer 8<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <h1>Play Sound On Click!</h1>
+<div class="wrapper">
+  <button class="button" type="button">Click me!</button>
+ </div>
+<style>
+  body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: skyblue;
+}
+h1{
+font-size: 4rem;
+color: #5d5d5d;
+text-align: center;
+
+}
+.button {
+font-size:15px;
+font-family:Arial;
+width:250px;
+height:100px;
+margin-top: 10%;
+margin-left: 35%;
+border-width:1px;
+color:#fff;
+border-color:#0faa04;
+font-weight:bold;
+border-top-left-radius:8px;
+border-top-right-radius:8px;
+border-bottom-left-radius:8px;
+border-bottom-right-radius:8px;
+box-shadow: 0px 10px 14px -7px #d34b0c;
+text-shadow: 0px 1px 0px #beaf08;
+background:linear-gradient(#890967, #52054d);
+}
+
+.button:hover {
+background: linear-gradient(#df001a, #df001a);
+}
+</style> -->
+
+  <!-- Q10.	Create an event that alert a message when the user moves the mouse over an element
+
+// // // // >>>>>>>>>>>>>>>>>>>>Answer 10<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <img width="300" height="300" onmouseover="alert('car image')"
+        src="https://img.freepik.com/premium-photo/bangkok-thailand-08082022-lamborghini-luxury-super-car-fast-sports-premium-lighting-background-3d-illustration_67092-1599.jpg"
+        alt="car"> -->
+
+  <!-- Q11.	Create an event that hides an element when the user moves the mouse out of it. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 11<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <img width="300" height="300" onmouseout="src = ''"
+        src="https://img.freepik.com/premium-photo/bangkok-thailand-08082022-lamborghini-luxury-super-car-fast-sports-premium-lighting-background-3d-illustration_67092-1599.jpg"
+        alt="car"> -->
+
+  <!-- Q12.Create a link that opens a new window when the user clicks on it and then closes the window when the user clicks on a close button in the new window. 
+    The size of the new window should be determined by the user's mouse position. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 12<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <button  class = "button" onclick="openTab()">Jawan pakistan</button>
+
+<style>
+    body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(7, 98, 49);
+}
+.button {
+  font-size:15px;
+  font-family:Arial;
+  width:250px;
+  height:100px;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:linear-gradient(#00ff04, #00ff04);
+}
+
+.button:hover {
+  background: linear-gradient(#028d1e, #028d1e);
+}
+</style> -->
+
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Chapter 49, 50 (Reading and Setting field values)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- Q1.Read the value of a user Input and print it to the console. -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 1<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <input type="text" id = "txt" onfocus="this.style.backgroundColor = 'lightgrey'">
+
+<button onclick="getName()">Submit</button> -->
+
+  <!-- Q2.Read the value of a checkbox and print it to the console -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 2<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <input type="checkbox" id = "jawantech" value ="web3.0 and metaverse course">Jawan Pakistan
+
+<button onclick="chkbox()">Submit</button> -->
+
+  <!-- 3.Read the value of a select box and print it to the console.
+
+// // // // >>>>>>>>>>>>>>>>>>>>Answer 3<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <select id="my-select">
+  <option value="HTML">HTML</option>
+  <option value="CSS">CSS</option>
+  <option value="Java Script">Java Script</option>
+</select>
+
+<button onclick="getslc()">Submit</button> -->
+
+  <!-- // Q7.Create a Registeration Form with Validation.
+
+// // // // // >>>>>>>>>>>>>>>>>>>>Answer 7<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
+
+  <!-- <body onload="document.registration.userid.focus();">
+  <h1>Registration Form</h1>
+  Use tab keys to move from one input field to the next.
+  <form name='registration' onSubmit="return formValidation();">
+  <ul>
+  <li><label for="userid">User id:</label></li>
+  <li><input type="text" name="userid" size="12" /></li>
+  <li><label for="passid">Password:</label></li>
+  <li><input type="password" name="passid" size="12" /></li>
+  <li><label for="username">Name:</label></li>
+  <li><input type="text" name="username" size="50" /></li>
+  <li><label for="address">Address:</label></li>
+  <li><input type="text" name="address" size="50" /></li>
+  <li><label for="country">Country:</label></li>
+  <li><select name="country">
+  <option selected="" value="Default">(Please select a country)</option>
+  <option value="AF">Australia</option>
+  <option value="AL">Canada</option>
+  <option value="DZ">India</option>
+  <option value="AS">Russia</option>
+  <option value="AD">USA</option>
+  </select></li>
+  <li><label for="zip">ZIP Code:</label></li>
+  <li><input type="text" name="zip" /></li>
+  <li><label for="email">Email:</label></li>
+  <li><input type="text" name="email" size="50" /></li>
+  <li><label id="gender">Sex:</label></li>
+  <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+  <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+  <li><label>Language:</label></li>
+  <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+  <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+  <li><label for="desc">About:</label></li>
+  <li><textarea name="desc" id="desc"></textarea></li>
+  <li><input type="submit" name="submit" value="Submit" /></li>
+  </ul>
+  </form>
+  <style>
+    h1 {
+margin-left: 70px;
+}
+form li {
+list-style: none;
+margin-bottom: 5px;
+}
+
+form ul li label{
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+margin-right: 10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+form ul li input, select, span {
+float: left;
+margin-bottom: 10px;
+}
+
+form textarea {
+float: left;
+width: 350px;
+height: 150px;
+}
+
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
+
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+
+  </style>
+</body> -->
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Chapter 51 (Reading and Setting paragraph text)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- Q1.How can I create a paragraph that expands when the user clicks on a Show More? -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer 1<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
+
+  <!-- <P id = "Para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+  Enim,<a href="#" onclick="loadPara()">Show More</a></P> -->
+
+
+  <!-- / Q4.	Set the text of a paragraph to the value of a text field, but only if the value is not empty.
+
+  // // // // // >>>>>>>>>>>>>>>>>>>>Answer 4<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
+
+  <!-- <div class="mail">
+    <h2>Input your Name and Submit</h2>
+    <form name="form1" action="#" onsubmit="required()">
+    <ul>
+    <li><input type='text' name ='text1'/></li>
+    <li class="rq">*Required Field</li>
+    <li><input type="submit" name="submit" value="Submit" /></li>
+    </ul>
+    </form>
+    </div>
+    <style>
+      li {list-style-type: none;
+font-size: 16pt;
+}
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+background : #D8F1F8;
+border: 1px soild silver;
+color: #000
+}
+.mail h2 {
+margin-left: 38px;
+}
+input {
+font-size: 20pt;
+}
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+input submit {
+font-size: 12pt;
+}
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
+</style> -->
+
+  <!-- Q5.Set the text of a paragraph to the value of a text field, but only if the value is equal to a specific word or phrase.
+
+// // // // // >>>>>>>>>>>>>>>>>>>>Answer 5<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
+
+  <!-- <input type='text' id='id1' />
+    <br>
+    <br>
+    <button onclick="gfg_Run()">
+        click to set
+    </button>
+    <p id="para" style="color:green; font-size: 20px;font-weight: bold;"> -->
+
+  <!-- 6.	Set the text of a paragraph to the value of a text field, but only if the value is less than a certain length.
+
+ // // // // // >>>>>>>>>>>>>>>>>>>>Answer 6<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
+
+  <!-- <body onload='document.form1.text1.focus()'>
+  <div class="mail">
+  <p>Enter Userid [between 6 to 8 characters] and Submit</p>
+  <form name="form1" action="#">
+  <ul>
+  <li>Username:<input type='text' name='text1'/></li>
+  <li>&nbsp;</li>
+  <li class="submit"it"><input type="submit" name="submit" value="Submit" onclick="stringlength(document.form1.text1,6,8)"/></li>
+  <li>&nbsp;</li>
+  </form>
+  </ul>
+  </div>
+  </body>
+  <style>
+  li {list-style-type: none;
+font-size: 16pt;
+}
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+background : #D8F1F8;
+border: 1px soild silver;
+}
+.mail h2 {
+margin-left: 38px;
+}
+input {
+font-size: 20pt;
+}
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+input submit {
+font-size: 12pt;
+}
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
+</style> -->
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Chapter 52 (Manipulating Images and Text)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1.	When the user clicks on the sentence, it turns bold. -->
+
+  <!-- // // // // // >>>>>>>>>>>>>>>>>>>>Answer 1<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- <P onclick="this.style.fontWeight = 'bold'">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, earum.</P> -->
+
+  <!-- Q2.	How can I make an image disappearwhen the user hovers over it and show text instead? 
+    When the user hovers off the image, the original image should reappear. -->
+
+  <!-- // // // // // >>>>>>>>>>>>>>>>>>>>Answer 2<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <!-- <div class="hero-name">
+      <div class="class1 letters">Y</div>
+      <div class="class2 letters">O</div>
+      <div class="class3 letters">U</div>
+      <div class="class4 letters">R</div>
+      <div class="class5 letters"></div>
+      <div class="class6 letters">N</div>
+      <div class="class7 letters">A</div>
+      <div class="class8 letters">M</div>
+      <div class="class9 letters">E</div>
+    <div id="backdrop"></div>
+      <div class="hero-pro">
+          <h2>Title Here</h2>
+      </div>
+    <img id ="img1" src="https://www.pinclipart.com/picdir/middle/84-849138_gold-chain-gangster-clipart.png" alt="sonic"/>
+<img id ="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pac_Man.svg/1200px-Pac_Man.svg.png" alt="pacman"/>
+<img id ="img3" src="https://www.clipartmax.com/png/middle/27-279319_donkey-kong-png-photo-donkey-kong-king-of-swing.png" alt="dk"/>
+    <img id ="img4" src="https://www.vhv.rs/dpng/d/574-5744697_tails-sonic-and-all-stars-racing-transformed-tails.png" alt="tails"/>
+  </div>
+  <style>
+    img {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#backdrop {
+  position: absolute;
+  top:0;
+  width:0;
+  height: 250px;
+  z-index:-1;
+  transition: width .5s;
+}
+.letters {
+  width: min-content;
+}
+h2 {
+  position: relative;
+  left: 20px;
+}
+/*class1 hover effects*/
+.class1:hover ~ #img1{
+  opacity: 1;
+}
+.class1:hover ~ #backdrop{
+  width: 100%;
+  background: #3a50d9;
+}
+.class1:hover ~ .hero-pro h2, .hero{
+  font-family: 'Codystar', cursive;
+  font-size: 30pt;
+  font-weight: 700;
+  text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+}
+
+/*class2 hover effects*/
+.class2:hover ~ #img2{
+  opacity: 1;
+}
+.class2:hover ~ #backdrop{
+  width: 100%;
+  background: #005dff;
+}
+.class2:hover ~ .hero-pro h2, .hero{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30pt;
+  font-weight: 700;
+  text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+}
+
+/*class3 hover effects*/
+.class3:hover ~ #img3{
+  opacity: 1;
+}
+.class3:hover ~ #backdrop{
+  width: 100%;
+  background: yellow;
+}
+.class3:hover ~ .hero-pro h2, .hero{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30pt;
+  font-weight: 700;
+  text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+}
+</style> -->
+
+<!-- Q3.When the user mouses over the heading, its background turns black, but it retains its original light gray color
+
+// // // // >>>>>>>>>>>>>>>>>>>>Answer 3<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
+
+<!-- <p onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+  Move mouse pointer to check onmouseover Event.<br>Learn to Code in Wikitechy.
+  </p> -->
+
+  <!-- 4.When user hover to a paragraph, Add a underline style to text -->
+
+  <!-- // // // // >>>>>>>>>>>>>>>>>>>>Answer4<<<<<<<<<<<<<<<<<<<<<<<<<<<  --> 
+
+  <!-- <span class="underline-on-hover">Hello world</span>
+
+  <style>
+  .underline-on-hover:hover {
+    text-decoration: underline;
+}
+  </style> -->
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Chapter 52 (Swapping Images)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+  <!-- 1.	Swap the images when the user clicks on a button. -->
+
+  <!-- <img src="https://img.freepik.com/premium-photo/bangkok-thailand-08082022-lamborghini-luxury-super-car-fast-sports-premium-lighting-background-3d-illustration_67092-1599.jpg" id="myImage" alt="alttext" height="200" width="200"/>
+  <button onclick="afterr()">Swap image</button> -->
+
+</body>
+<script src="app.js"></script>
+
+</html>
